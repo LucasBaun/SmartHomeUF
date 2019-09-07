@@ -88,8 +88,9 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #6888BE;
-  border-color: #6888BE;
+  background-color: #99AFD7;
+  border-color: #99AFD7;
+  padding: 2%;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -524,8 +525,8 @@ header.masthead .intro-text .intro-heading {
   }
 
   .portfolio-modal .modal-content {
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
@@ -550,8 +551,8 @@ header.masthead .intro-text .intro-heading {
     padding: 0 20px 20px;
   }
   .portfolio-modal .modal-content {
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
@@ -574,8 +575,8 @@ header.masthead .intro-text .intro-heading {
     padding: 0 100px 20px 20px;
   }
   .portfolio-modal .modal-content {
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
