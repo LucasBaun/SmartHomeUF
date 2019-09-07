@@ -119,7 +119,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #6888BE;
+  color: #4470AD;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -445,7 +445,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #6888BE;
+  background-color: #5E81BE;
 }
 
 .timeline > li .timeline-image h4 {
