@@ -11,13 +11,30 @@ a {
   color: #505050;
 }
 
+.web a{
+  color: #e5e5e5;
+}
+
+.web a:hover{
+  color: #b2b2b2;
+}
+
 a:hover {
   color: #808080;
   text-decoration: none;
 }
 
+.paddingbottom{
+  margin-bottom: 1%;
+}
+
 .text-primary {
   color: #6888BE !important;
+}
+
+#hearth:hover{
+  font-size: 17px;
+  transition: 0.3s;
 }
 
 h1,
@@ -36,6 +53,18 @@ h6 {
 
 .page-section {
   padding: 100px 0;
+}
+
+.marginleftstuff{
+  margin-left: 25%;
+}
+
+.paddingbot{
+  padding-bottom: 35px;
+}
+
+.logoimg{
+  height: 50px;
 }
 
 .page-section h2.section-heading {
@@ -669,6 +698,7 @@ section#contact :-ms-input-placeholder {
 .footer span.copyright {
   font-size: 90%;
   line-height: 40px;
+  color: #e5e5e5;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -697,6 +727,11 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: #212529;
+}
+
+ul.vit li a{
+  color: #212529;
+  background-color: #e5e5e5;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
