@@ -55,9 +55,7 @@ h6 {
   padding: 100px 0;
 }
 
-.marginleftstuff{
-  margin-left: 25%;
-}
+
 
 .paddingbot{
   padding-bottom: 35px;
@@ -199,6 +197,9 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+  .marginleftstuff{
+    margin-left: 25%;
   }
 }
 
