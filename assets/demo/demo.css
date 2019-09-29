@@ -449,13 +449,18 @@
 }
 
 .brand .h1-seo {
-  font-size: 2.8em;
+  font-size: 4em;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+.slogan{
+  font-weight: 400;
+  font-style: oblique;
 }
 
 .brand .n-logo {
-  max-width: 100px;
+  max-width: 150px;
   margin-bottom: 40px;
 }
 

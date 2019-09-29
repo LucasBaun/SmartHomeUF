@@ -6506,15 +6506,15 @@ img {
   .sidebar-collapse .navbar-collapse:before {
     background: #f96332;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+    background: -webkit-linear-gradient(#ED6F43 30%, #E0C969 90%);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f96332 0%, #000 80%);
+    background: -o-linear-gradient(#ED6F43 30%, #E0C969 90%);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f96332 0%, #000 80%);
+    background: -moz-linear-gradient(#ED6F43 30%, #E0C969 90%);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ED6F43 0%, #E0C969 80%);
+    background: linear-gradient(#ED6F43 30%, #E0C969 90%);
     /* Standard syntax (must be last) */
-    opacity: 0.76;
+    /* opacity: 0.76; */
     filter: alpha(opacity=76);
     display: block;
     content: "";
