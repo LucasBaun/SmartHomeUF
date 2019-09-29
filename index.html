@@ -1,687 +1,743 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="swe">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="img/logos/icon.jpg">
-
-  <title>SmartHome UF</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik|Slabo+27px&display=swap" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/agency.css" rel="stylesheet">
-
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" href="assets/img/tidslinje/smarthome.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    SmartHome UF
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+  <link href="./assets/css/agency.css" rel="stylesheet" >
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
 
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<body class="index-page sidebar-collapse">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400" id="start">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">SmartHome UF</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#start" rel="tooltip">
+          SmartHome UF
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#tjanster">Tjänster</a>
+            <a class="nav-link" href="#tjanster">
+              <p>Tjänster</p>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+              <p>Produkter</p>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" href="#product">
+                 <b>Alla produkter</b>
+              </a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal1">
+               Google Home
+              </a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal2">
+               Yeelight
+              </a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal3">
+                IKEA Smart Home
+              </a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#product">produkter</a>
+            <a class="nav-link" href="#omoss">
+              <p>Om oss</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#omoss">Om oss</a>
+            <a class="nav-link" href="#tidslinjen">
+              <p>Tidslinje</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#tidslinjen">Tidslinje</a>
+            <a class="nav-link" href="#sponsors">
+              <p>Sponsorer</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Hitta oss på UF Showroom" data-placement="bottom" href="https://ungforetagsamhet.se/smarthome-uf" target="_blank">
+              <i class="now-ui-icons objects_globe"></i>
+              <p class="d-lg-none d-xl-none"> UF Showroom</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsorer</a>
+            <a class="nav-link" rel="tooltip" title="Gilla oss på Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.instagram.com/smarthomeuf/" target="_blank">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://ungforetagsamhet.se/smarthome-uf" target="_blank">UF showroom</a>
+            <a class="nav-link" rel="tooltip" title="Följ oss på Instagram" data-placement="bottom" href="https://www.instagram.com/smarthomeuf/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Välkommen till</div>
-        <div class="intro-heading text-uppercase">SmartHome UF</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#tjanster">Läs mer</a>
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="bgcolor">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/header2.jpg');">
       </div>
-    </div>
-  </header>
-
-
-
-  <!-- Services -->
-  <section class="page-section" id="tjanster">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">tjänster</h2>
-          <h3 class="section-subheading text-muted">Här kan du läsa om våra tjänster vi erbjuder våra kunder.</h3>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Produkterna</h4>
-          <p class="text-muted">Våra produkter är noga utvalda av oss då vi vill erbjuda våra kunder det som är det bästa på marknaden för så lågt pris som möjligt. Vi letar alltid efter nya produkter som vi kan erbjuda.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-user-shield fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Våra kunder</h4>
-          <p class="text-muted">För oss är det väldigt viktigt för oss att våra kunder är nöjda med deras köp, service eller installation därför kommer vi göra allt för att behålla alla våra kunder till nöjda kunder.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Installation</h4>
-          <p class="text-muted">Om du inte har tid, orken eller bara inte kunskaperna till att installera ditt SmartHome som vi vet att många inte har så erbjuder vi våran installationstjänst till alla våra produkter.</p>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="./assets/img/orange-logo.png" alt="">
+          <h1 class="h1-seo">SmartHome UF</h1>
+          <h4>Smartare hem till en enklare vardag</<h4></h4>>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- product Grid -->
-  <section class="bg-light page-section" id="product">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Produkter</h2>
-          <h3 class="section-subheading text-muted">Här kan du läsa om våra kit vi erbjuder.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Google home kit</h4>
-            <p class="text-muted">Röststyrd hjälp hemma.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Yeelight Kit</h4>
-            <p class="text-muted">Bästsäljande lampan</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Ikea Home Kit</h4>
-            <p class="text-muted">Smart belysning från IKEA</p>
-          </div>
-        </div>
-        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Kit 4</h4>
-            <p class="text-muted">Kort Beskrivning</p>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Kit 5</h4>
-            <p class="text-muted">Kort Beskrivning</p>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Kit 6</h4>
-            <p class="text-muted">Kort Beskrivning</p>
-          </div>
-        </div> -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Om oss -->
-  <section class=" page-section" id="omoss">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Vi på smarthome uf</h2>
-          <h3 class="section-subheading text-muted">Kontakta oss som jobbar på SmartHome UF genom våra länkar</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Lucas Baunsgaard</h4>
-            <p class="text-muted">Företagsledare/VD</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/profile.php?id=100008229012480" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/lucas_baun/" target="_blank">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/lucas-baunsgaard-b8319318a/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Elton Borgstedt</h4>
-            <p class="text-muted">Säljare</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/profile.php?id=100008846679447" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/eltonborgstedt/" target="_blank">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <!-- <li class="list-inline-item">
-                <a href="#">
-                  <i class="far fa-envelope"></i>
-                </a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Sebastian Jansson</h4>
-            <p class="text-muted">Ekonom</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/sebastian.jansson.501" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/sebbe330/" target="_blank">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/sebastian-jansson-661407193/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="mailto:name@mail.se" target="_blank">kontakta oss</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- tidslinjen -->
-  <section class="bg-light page-section" id="tidslinjen">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Tidslinje</h2>
-          <h3 class="section-subheading text-muted">Här kan du läsa om våran resa med SmartHome UF och stora händerlser som hänt oss.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/logos/icon.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2019-09-03</h4>
-                  <h4 class="subheading">SmartHome UF skapas</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Vi registrerade oss på ungforetagsamhet.se och skapade då företaget SmartHome UF och lade ut den på deras showroom.</p>
-                </div>
-              </div>
-
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2019-09-09</h4>
-                  <h4 class="subheading">Första sponsoren</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Vi kontaktade företaget misshosting om de ville sponsra oss med domännamn och webbhotell och dom ville gärna sponsra oss.</p>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2019-09-03</h4>
-                  <h4 class="subheading">UF Kickoff</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Vi var på UF kickoffen där vi fick mer inspiration och idéer till vårat företag. Vi pratade också lite med <a href="https://www.instagram.com/merchsweden/?hl=sv" target="_blank">MerchSweden</a> som blev våran andra rådgivare. </p>
-                </div>
-              </div>
-            </li>
-
-            <!-- <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li> -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Följ
-                  <br>Våran
-                  <br>Resa!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Sponsorer -->
-  <section class="py-5 paddingbottom" id="sponsors">
+    <section class="page-section" id="tjanster">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center paddingbot">
-            <h2 class="section-heading text-uppercase">Sponsorer</h2>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">tjänster</h2>
+            <h3 class="section-subheading text-muted">Här kan du läsa om våra tjänster vi erbjuder våra kunder.</h3>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a data-toggle="modal" href="#websely">
-              <img class="img-fluid d-block mx-auto logoimg" src="img/logos/websely.jpg" alt="">
-            </a>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Produkterna</h4>
+            <p class="text-muted">Våra produkter är noga utvalda av oss då vi vill erbjuda våra kunder det som är det bästa på marknaden för så lågt pris som möjligt. Vi letar alltid efter nya produkter som vi kan erbjuda.</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a data-toggle="modal" href="#misshosting">
-              <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/misshosting.png" alt="">
-            </a>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-user-shield fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Våra kunder</h4>
+            <p class="text-muted">För oss är det väldigt viktigt för oss att våra kunder är nöjda med deras köp, service eller installation därför kommer vi göra allt för att behålla alla våra kunder till nöjda kunder.</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a data-toggle="modal" href="#ekitsu">
-              <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/ekitsu.png" alt="">
-            </a>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Installation</h4>
+            <p class="text-muted">Om du inte har tid, orken eller bara inte kunskaperna till att installera ditt SmartHome som vi vet att många inte har så erbjuder vi våran installationstjänst till alla våra produkter.</p>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a data-toggle="modal" href="#akh">
-              <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/akh.png" alt="">
-            </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light page-section" id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Produkter</h2>
+            <h3 class="section-subheading text-muted">Här kan du läsa om våra kit vi erbjuder.</h3>
           </div>
-          <!-- <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./assets/img/products/01-thumbnail.jpg" alt="">
             </a>
+            <div class="portfolio-caption">
+              <h4>Google home kit</h4>
+              <p class="text-muted cred">▀▄▀▄▀▄   REA   ▄▀▄▀▄▀</p>
+              <!-- <p class="text-muted">Röststyrd hjälp hemma.</p> -->
+
+            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./assets/img/products/02-thumbnail.jpg" alt="">
             </a>
+            <div class="portfolio-caption">
+              <h4>Yeelight Kit</h4>
+              <p class="text-muted">Bästsäljande lampan</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./assets/img/products/03-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Ikea Home Kit</h4>
+              <p class="text-muted">Smart belysning från IKEA</p>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Kit 4</h4>
+              <p class="text-muted">Kort Beskrivning</p>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Kit 5</h4>
+              <p class="text-muted">Kort Beskrivning</p>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Kit 6</h4>
+              <p class="text-muted">Kort Beskrivning</p>
+            </div>
           </div> -->
         </div>
       </div>
     </section>
 
-  <!-- Footer -->
-  <footer class="footer bg-dark">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; SmartHome UF</span>
+    <!-- Om oss -->
+    <section class=" page-section" id="omoss">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Vi på smarthome uf</h2>
+            <h3 class="section-subheading text-muted">Kontakta oss som jobbar på SmartHome UF genom våra länkar</h3>
+          </div>
         </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons vit">
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/smarthomeuf/" target="_blank">
-                <i class="fab fa-instagram"></i>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="">
+              <h4>Lucas Baunsgaard</h4>
+              <p class="text-muted">Företagsledare/VD</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:Lucas@SmartHomeUF">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/lucas-baunsgaard-b8319318a/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="tel:0723837728" >
+                    <i class="fas fa-phone"></i>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="">
+              <h4>Elton Borgstedt</h4>
+              <p class="text-muted">Säljare</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:Elton@SmartHomeUF">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <!-- <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/lucas-baunsgaard-b8319318a/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li> -->
+                <li class="list-inline-item">
+                  <a href="tel:0760066280" >
+                    <i class="fas fa-phone"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="">
+              <h4>Sebastian Jansson</h4>
+              <p class="text-muted">Ekonom</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="mailto:Sebastian@SmartHomeUF">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/sebastian-jansson-661407193/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <!-- <li class="list-inline-item">
+                  <a href="tel:0723837728" >
+                    <i class="fas fa-phone"></i>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="mailto:name@mail.se" target="_blank">kontakta oss</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-light page-section" id="tidslinjen">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Tidslinje</h2>
+            <h3 class="section-subheading text-muted">Här kan du läsa om våran resa med SmartHome UF och stora händerlser som hänt oss.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./assets/img/tidslinje/smarthome.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-09-03</h4>
+                    <h4 class="subheading">SmartHome UF skapas</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Vi registrerade oss på ungforetagsamhet.se och skapade då företaget SmartHome UF och lade ut den på deras showroom.</p>
+                  </div>
+                </div>
+
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./assets/img/tidslinje/mh.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-09-09</h4>
+                    <h4 class="subheading">Första sponsoren</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Vi kontaktade företaget misshosting om de ville sponsra oss med domännamn och webbhotell och dom ville gärna sponsra oss.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./assets/img/tidslinje/uf.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-09-15</h4>
+                    <h4 class="subheading">UF Kickoff</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Vi var på UF kickoffen där vi fick mer inspiration och idéer till vårat företag.  </p>
+                    <!-- Vi pratade också lite med <a href="https://www.instagram.com/merchsweden/?hl=sv" target="_blank">MerchSweden</a> som blev våran andra rådgivare. -->
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>July 2014</h4>
+                    <h4 class="subheading">Phase Two Expansion</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li> -->
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Följ
+                    <br>Våran
+                    <br>Resa!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsorer -->
+      <section class="py-5 paddingbottom" id="sponsors">
+           <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center paddingbot">
+                <h2 class="section-heading text-uppercase">Sponsorer</h2>
+              </div>
+              <!-- <div class="col-md-3 col-sm-6">
+                <a data-toggle="modal" href="#websely">
+                  <img class="img-fluid d-block mx-auto logoimg " src="img/logos/websely.jpg" alt="">
+                </a>
+              </div> -->
+              <!-- <div class="col-md-3 col-sm-6">
+                <a data-toggle="modal" href="#misshosting">
+                  <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/misshosting.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <a data-toggle="modal" href="#ekitsu">
+                  <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/ekitsu.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <a data-toggle="modal" href="#akh">
+                  <img class="img-fluid d-block mx-auto logoimg logomartop" src="img/logos/akh.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6 ">
+                <a data-toggle="modal" href="#caparol">
+                  <img class="img-fluid d-block mx-auto logoimg2" src="img/logos/caparol.jpg" alt="">
+                </a>
+              </div> -->
+              <!-- <div class="col-md-3 col-sm-6">
+                <a href="#">
+                  <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+                </a>
+              </div> -->
+            <!-- </div>
+          </div> -->
+
+          <style>
+          .boxes{
+            display: flex;
+            width: 100vw;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+          }
+
+          .rows{
+          display: flex;
+          flex-direction: row;
+          }
+
+          .imagas{
+            padding: 15px;
+            width: 200px;
+            height: auto;
+          }
+
+          .nine{
+            display: none;
+          }
+
+          .mobiles{
+            display: none;
+          }
+
+          @media only screen and (max-width: 666px) {
+            .mobiles{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 100vw;
+              margin: 0px;
+            }
+
+            .boxes{
+              display: none;
+            }
+
+            .nine{
+              display: none;
+            }
+
+            .rows{
+              flex-direction:column;
+            }
+
+          }
+
+          @media only screen and (max-width: 1111px) and (min-width: 666px)  {
+
+          .nine{
+            /* height: 100vh; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            margin: 0px;
+          }
+          .boxes{
+            display: none;
+          }
+
+          }
+
+          </style>
+          <div class="boxes">
+            <div class="rows">
+              <a data-toggle="modal" href="#websely">
+              <img class="imagas" src="assets/img/sponsors/websely2.jpg">
               </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/SmartHome-UF-101712941214845/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
+              <a data-toggle="modal" href="#misshosting">
+              <img class="imagas" src="assets/img/sponsors/misshosting.jpg">
               </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="mailto:SmartHomeUF@Outlook.com">
-                <i class="fas fa-envelope"></i>
+              <a data-toggle="modal" href="#ekitsu">
+              <img class="imagas" src="assets/img/sponsors/ekitsu2.png">
               </a>
+              <a data-toggle="modal" href="#akh">
+              <img class="imagas" src="assets/img/sponsors/akh2.png">
+              </a>
+              <a data-toggle="modal" href="#caparol">
+              <img class="imagas" src="assets/img/sponsors/caparol.png">
+              </a>
+            </div>
+            <div class="rows">
+              <!-- <img class="imagas" src="http://ableliquidwaste.com.au/wp-content/uploads/2014/07/200x100.gif">
+              <img class="imagas" src="http://ableliquidwaste.com.au/wp-content/uploads/2014/07/200x100.gif">
+              <img class="imagas" src="http://ableliquidwaste.com.au/wp-content/uploads/2014/07/200x100.gif">
+              <img class="imagas" src="http://ableliquidwaste.com.au/wp-content/uploads/2014/07/200x100.gif">
+              <img class="imagas" src="http://ableliquidwaste.com.au/wp-content/uploads/2014/07/200x100.gif"> -->
+            </div>
+          </div>
+          <div class="nine">
+            <div class="rows">
+              <a data-toggle="modal" href="#websely">
+              <img class="imagas" src="assets/img/sponsors/websely2.jpg">
+              </a>
+              <a data-toggle="modal" href="#misshosting">
+              <img class="imagas" src="assets/img/sponsors/misshosting.jpg">
+              </a>
+              <a data-toggle="modal" href="#ekitsu">
+              <img class="imagas" src="assets/img/sponsors/ekitsu.png">
+              </a>
+            </div>
+            <div class="rows">
+              <a data-toggle="modal" href="#akh">
+              <img class="imagas" src="assets/img/sponsors/logos/akh.png">
+              </a>
+              <a data-toggle="modal" href="#caparol">
+              <img class="imagas" src="assets/img/sponsors/logos/caparol.png">
+              </a>
+             </div>
+          </div>
+          <div class="mobiles">
+            <a data-toggle="modal" href="#websely">
+              <img class="imagas" src="assets/img/sponsors/websely2.jpg">
+            </a>
+            <a data-toggle="modal" href="#misshosting">
+              <img class="imagas" src="assets/img/sponsors/misshosting.jpg">
+            </a>
+            <a data-toggle="modal" href="#ekitsu">
+              <img class="imagas" src="assets/img/sponsors/ekitsu.png">
+            </a>
+            <a data-toggle="modal" href="#akh">
+              <img class="imagas" src="assets/img/sponsors/akh.png">
+            </a>
+            <a data-toggle="modal" href="#caparol">
+              <img class="imagas" src="assets/img/sponsors/caparol.png">
+            </a>
+            </div>
+          </div>
+        </section>
+
+
+    <footer class="footer" data-background-color="black">
+      <div class=" container ">
+        <nav>
+          <ul>
+            <li>
+              &copy 2019, SmartHome UF
             </li>
           </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item web">
-              <a href="https://www.websely.com" target="_blank">Skapad med <b id="hearth">❤</b> av Websely.com</a>
-            </li>
-            </li>
-          </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+          <a href="https://www.websely.com" target="_blank">Skapad med <b id="hearth">❤</b> av Websely.com</a>
+
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Portfolio Modals -->
 
-  <!-- Google home mini -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
+    <!--  google mini Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Google Home Mini</h2>
-                <p class="item-intro text-muted">Handsfree hantering av vardagen.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>
-                  Google Home Mini är en smart högtalare med Google Assistent inbyggd. När du behöver lite hjälp så finns den vid din sida.
-                  Vill du höra det senaste om vädret, trafiken, nyheterna och mycket annat? Det är bara att fråga.
-                  Google hjälper dig få anpassad hjälp med kalendern, påminnelser, nyheter och annat.
-                  Använd rösten för att spela upp musik på Google Home Mini eller streama program, filmer med mera på TV:n med Chromecast.
-                </p>
-                <ul class="list-inline">
-                  <li class="spec">Specifikation:</li>
-                  <li><a class="spec">Ljud:</a> 360 grader högtalare</li>
-                  <li><a class="spec">Strömförbrukning:</a> 5 V, 1,8 A</li>
-                  <li><a class="spec">Anslutning:</a> 2,4 GHz/5 Ghz Wi-Fi</li>
-                  <li><a class="spec">Innehåller:</a> 1x Google Home Mini</li>
-                  <li><a class="spec">Pris:</a> 450kr</li>
-                </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeNoyS4MJjrIdQVGvPWhV0NUrc8-WLYD8bwdqf9SieQzqQSg/viewform?usp=sf_link" target="_blank">
-                  <button class="btn btn-primary" type="button">Kontakta oss om Google home kit</button></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Google Home Mini</h2>
+                  <p class="item-intro text-muted">Handsfree hantering av vardagen.</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/products/01-full.jpg" alt="">
+                  <p>
+                    Google Home Mini är en smart högtalare med Google Assistent inbyggd. När du behöver lite hjälp så finns den vid din sida.
+                    Vill du höra det senaste om vädret, trafiken, nyheterna och mycket annat? Det är bara att fråga.
+                    Google hjälper dig få anpassad hjälp med kalendern, påminnelser, nyheter och annat.
+                    Använd rösten för att spela upp musik på Google Home Mini eller streama program, filmer med mera på TV:n med Chromecast.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="spec">Specifikation:</li>
+                    <li><a class="spec">Ljud:</a> 360 grader högtalare</li>
+                    <li><a class="spec">Strömförbrukning:</a> 5 V, 1,8 A</li>
+                    <li><a class="spec">Anslutning:</a> 2,4 GHz/5 Ghz Wi-Fi</li>
+                    <li><a class="spec">Innehåller:</a> 1x Google Home Mini</li>
+                    <li><a class="spec">Pris:</a> <strike>450kr</strike> 400kr</li>
+                    <br>
+                    <li><a class="spec">Så långt lagret räcker!</a></li>
+                  </ul>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeNoyS4MJjrIdQVGvPWhV0NUrc8-WLYD8bwdqf9SieQzqQSg/viewform?usp=sf_link" target="_blank">
+                    <button class="btn btn-primary" type="button">Kontakta oss om Google home kit</button></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
+    <!-- yeelight Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Yeelight Kit V2</h2>
-                <p class="item-intro text-muted">Smart RGB led lampa som du kan styra med rösten/mobilen.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>
-                  Med Yeelight v2 kan du anpassa din belysning med en färgpalett som har över 16 miljoner färger och olika toner av vitt - från varmvitt till vibrerande blåvit.
-                  Du kan också ändra färgen med din röstaktiverade enhet eller telefon. Anpassa scener till dina preferenser och få omedelbar åtkomst till dem. Oavsett om du är på humör att festa eller på humör att ta en tupplur, Yeelight hjälper dig att uppnå det.
-                </p>
-                <ul class="list-inline">
-                  <li class="spec">Specifikation:</li>
-                  <li><a class="spec">Lamphållare:</a> E27</li>
-                  <li><a class="spec">Strömförbruknin:</a> 10W</li>
-                  <li><a class="spec">Anslutning:</a> 2,4 GHz Wi-Fi</li>
-                  <li><a class="spec">Innehåller:</a> 1x RGBW Lampa</li>
-                  <li><a class="spec">Pris:</a> 275kr</li>
-                </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_KELAq4jkGxTrfLh5am272HcapUEhXnVOfWIJEO3tY7yz8g/viewform?usp=sf_link" target="_blank">
-                  <button class="btn btn-primary" type="button">Kontakta oss om Yeelight Kit</button></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Yeelight Kit V2</h2>
+                  <p class="item-intro text-muted">Smart RGB led lampa som du kan styra med rösten/mobilen.</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/products/02-full.jpg" alt="">
+                  <p>
+                    Med Yeelight v2 kan du anpassa din belysning med en färgpalett som har över 16 miljoner färger och olika toner av vitt - från varmvitt till vibrerande blåvit.
+                    Du kan också ändra färgen med din röstaktiverade enhet eller telefon. Anpassa scener till dina preferenser och få omedelbar åtkomst till dem. Oavsett om du är på humör att festa eller på humör att ta en tupplur, Yeelight hjälper dig att uppnå det.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="spec">Specifikation:</li>
+                    <li><a class="spec">Lamphållare:</a> E27</li>
+                    <li><a class="spec">Strömförbruknin:</a> 10W</li>
+                    <li><a class="spec">Anslutning:</a> 2,4 GHz Wi-Fi</li>
+                    <li><a class="spec">Innehåller:</a> 1x RGBW Lampa</li>
+                    <li><a class="spec">Pris:</a> 275kr</li>
+                  </ul>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_KELAq4jkGxTrfLh5am272HcapUEhXnVOfWIJEO3tY7yz8g/viewform?usp=sf_link" target="_blank">
+                    <button class="btn btn-primary" type="button">Kontakta oss om Yeelight Kit</button></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!-- Ikea home kit -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Ikea Smart Home Kit</h2>
-                <p class="item-intro text-muted">Styr mer med hjälp av IKEA's produkter</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>
-                  Vi har skräddarsytt ett starter kit med hjälp av ikea's produkter "TRÅDLÖS". I det här kitet får du med saker så du kan sätta upp ett simelt smart hem och möjligheter till att utveckla det ifall du känner för det.
-                  Du kan koppla ditt Ikea Home Kit till olika saker som t.ex. Google Home, Siri genvägar, Alexa och massa mer.
-                </p>
-                <ul class="list-inline">
-                  <li><a class="spec">Innehåller:</a></li>
-                  <li> 1x Gateway</li>
-                  <li> 1x Kontroll</li>
-                  <li> 2x Lampor</li>
-                  <li> 2x Uttag</li>
-                  <li><a class="spec">Pris:</a> (Pris kommer snart!)</li>
-                  <li>Kontakta oss för pris</li>
-                </ul>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeY9PkthYa2MKRpaiUEwAVQ-D-8ufEH2NRUrb7ZEM-a8wrNpQ/viewform?usp=sf_link" target="_blank">
-                <button class="btn btn-primary" type="button">Kontakta oss om Ikea Home Kit</button></a>
-              </div>
+    <!-- Ikea home kit -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Ikea Smart Home Kit</h2>
+                  <p class="item-intro text-muted">Styr mer med hjälp av IKEA's produkter</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/products/03-full.jpg" alt="">
+                  <p>
+                    Vi har skräddarsytt ett starter kit med hjälp av ikea's produkter "TRÅDLÖS". I det här kitet får du med saker så du kan sätta upp ett simelt smart hem och möjligheter till att utveckla det ifall du känner för det.
+                    Du kan koppla ditt Ikea Home Kit till olika saker som t.ex. Google Home, Siri genvägar, Alexa och massa mer.
+                  </p>
+                  <ul class="list-inline">
+                    <li><a class="spec">Innehåller:</a></li>
+                    <li> 1x Gateway</li>
+                    <li> 1x Kontroll</li>
+                    <li> 2x Lampor</li>
+                    <li> 2x Uttag</li>
+                    <li><a class="spec">Pris:</a> (Pris kommer snart!)</li>
+                    <li>Kontakta oss för pris</li>
+                  </ul>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeY9PkthYa2MKRpaiUEwAVQ-D-8ufEH2NRUrb7ZEM-a8wrNpQ/viewform?usp=sf_link" target="_blank">
+                  <button class="btn btn-primary" type="button">Kontakta oss om Ikea Home Kit</button></a>
+                </div>
               </div>
             </div>
           </div>
@@ -706,9 +762,9 @@
                 <!-- Project Details Go Here -->
                 <!-- <h2 class="text-uppercase">Websely.com</h2> -->
                 <!-- <p class="item-intro text-muted">Smart RGB led lampa som du kan styra med rösten/mobilen.</p> -->
-                <img class="img-fluid d-block mx-auto" src="img/logos/websely.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="assets/img/sponsors/websely.jpg" alt="">
                 <p class="paddingbot">
-                Websely är enn webbyrå i Västerås som erbjuder små och nystartade företag en hemsida till ett bra pris. Vi fick hemsidan gjord av dom och som tack rekomenderar vi <a href="https://www.websely.com">websely.com</a> starkt till andra UF företag som vill ha en stilig hemsida.
+                Websely är en webbyrå i Västerås som erbjuder små och nystartade företag en hemsida till ett bra pris. Vi fick hemsidan gjord av dom och som tack rekomenderar vi <a href="https://www.websely.com">websely.com</a> starkt till andra UF företag som vill ha en stilig hemsida.
                 </p>
                 <ul class="list-inline">
                   <!-- <li class="spec">Specifikation:</li>
@@ -740,7 +796,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-fluid d-block mx-auto" src="img/logos/misshosting.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="assets/img/sponsors/misshosting.png" alt="">
                 <p class="paddingbot">
                   Miss Hosting (del av Miss Group) är ett Internationellt Webbhotell som erbjuder en rad Hosting relaterade tjänster till förmånliga priser som
                   Webbhotell, Domänregistrering, Domänauktion, VPS, Dedikerade servrar, Sitebuilder, SSL, Seo-verktyg och Webbsäkerhet. Miss Hosting är även ICANN-ackrediterad domännamnregistrar via NameISP
@@ -770,7 +826,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-fluid d-block mx-auto" src="img/logos/ekitsu.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="assets/img/sponsors/ekitsu.jpg" alt="">
                 <p class="paddingbot">
                   Ekitsu hjälper företag med redovisning och löpande bokförning. Ekitsu hjälper även till med support, inköp samt installation av it för företag.
                   Ekitsu hjälper oss med finansiel sponsoring samt stöd för våra ekonomiska uppgifter.
@@ -800,7 +856,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <img class="img-fluid d-block mx-auto" src="img/logos/akhBig.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="assets/img/sponsors/akhBig.png" alt="">
                 <p class="paddingbot">
                 På AKH.se hittar du arbetskläder, skyddsskor, arbetsbyxor m.m. från ledande kvalitetsvarumärken som exempelvis PX, Snickers, Fristads, Helly Hansen och Jobman.
                 Deras breda sortiment gör det enkelt att hitta arbetskläder och yrkeskläder till hela personalen.
@@ -818,20 +874,71 @@
     </div>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Caparol -->
+  <div class="portfolio-modal modal fade" id="caparol" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-fluid d-block mx-auto" src="assets/img/sponsors/caparol.jpg" alt="">
+                <p class="paddingbot">
+                  Caparol är idag en av Sveriges större färgtillverkare. Det svenska bolaget grundades 1918 i Göteborg, och har idag försäljning över hela Sverige. 1998 blev vi en del i en av världens största familjeägda färgkoncerner, DAW.                  Ekitsu hjälper oss med finansiel sponsoring samt stöd för våra ekonomiska uppgifter.
+                  Caparol sponsrar oss med färg till våran UF monter.
+                </p>
+                <ul class="list-inline">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                </ul><a href="http://www.Caparol.se/" target="_blank">
+                   <button class="btn btn-primary" type="button">Gå till Caparol.se</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
 
+
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+  <script type="assets/js/purechat" data-cfasync='false'></script>
+  <script type="assets/js/agency.js" data-cfasync='false'></script>
+
+  <script>
+    $(document).ready(function() {
+      // the body of this function is in assets/js/now-ui-kit.js
+      nowuiKit.initSliders();
+    });
+
+    function scrollToDownload() {
+
+      if ($('.section-download').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-download').offset().top
+        }, 1000);
+      }
+    }
+  </script>
 </body>
 
 </html>
