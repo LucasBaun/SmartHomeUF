@@ -459,6 +459,28 @@
   font-style: oblique;
 }
 
+.badge {
+  position: absolute;
+  text-transform: capitalize;
+  top: -20px;
+  right: -20px;
+  padding: 30px 10px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  color: white;
+  font-size: 160%;
+}
+
+strike{
+  color: black; 
+}
+
+.textred{
+  color: red;
+}
+
 .brand .n-logo {
   max-width: 150px;
   margin-bottom: 40px;

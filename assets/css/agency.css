@@ -32,6 +32,10 @@ a:hover {
   margin-bottom: 1%;
 }
 
+.instanr{
+  font-size: 120%;
+}
+
 .text-primary {
   color: #ED6F43 !important;
 }
@@ -216,7 +220,7 @@ img::-moz-selection {
     padding: 12px 0;
   }
   .marginleftstuff{
-    margin-left: 12.5%;
+    margin-left: 30%;
   }
 }
 
@@ -581,7 +585,7 @@ header.masthead .intro-text .intro-heading {
 
   .portfolio-modal .modal-content {
     width: 75%;
-    margin-left: 12,5%;
+    margin-left: 12.5%;
   }
 }
 
@@ -607,7 +611,7 @@ header.masthead .intro-text .intro-heading {
   }
   .portfolio-modal .modal-content {
     width: 75%;
-    margin-left: 12.5%;
+    margin-left: 12.25%;
   }
 }
 
@@ -630,8 +634,8 @@ header.masthead .intro-text .intro-heading {
     padding: 0 100px 20px 20px;
   }
   .portfolio-modal .modal-content {
-    width: 75%;
-    margin-left: 12,5%;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
